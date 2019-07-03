@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>This is a test webpage.</p>
+    
+<head>
+    
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+    </script>
+
+</head>
+
+
+<h1> A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
 </body>
 </html>
