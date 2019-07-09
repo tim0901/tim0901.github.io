@@ -12,5 +12,5 @@ var dad = new Person("John","Doe", 50, "Blue");
 var mum = new Person("Sally","Rally", 48, "Green");
 
 function myFunction(){
-    document.getElementById("demo").innerHTML = dad.fullName + " " + mum.fullName;
+    document.getElementById("demo").innerHTML = dad.fullName() + " " + mum.fullName();
 }
